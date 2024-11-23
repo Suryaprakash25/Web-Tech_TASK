@@ -1,0 +1,70 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.outer {
+    background-image: url(../website1/forest.jpg);
+    background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+  /* background-color: #ffffffcc; */
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.outer > .box {
+  width: 300px;
+  background-color: #ffffff;
+  border: 3px solid black;
+  padding: 30px;
+  text-align: center;
+  box-shadow: 2px 2px 2px black;
+}
+.outer > .box:hover {
+  box-shadow: -2px -2px 2px black;
+  padding: 35px;
+  /* background-color: #ff0037; */
+
+}
+/* .outer:hover>.box:nth-child(2n):not(:hover){background-color: #ffffff;color: black;} */
+.outer > .box > h2 {
+  text-transform: uppercase;
+  font-weight: bold;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: 30px;
+}
+.outer > .box > p {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+.outer > .box > button {
+  background-color: black;
+  color: white;
+  width: 100%;
+  padding: 10px;
+  font-size: 18px;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 15px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.outer > .box > button:hover {
+  background-color: #ffffff;
+  color: black;
+  border: none;
+  box-shadow: 2px 2px 3px black;
+}
+.outer > .box > i {
+  font-size: 40px;
+}
+
+.outer > .box:nth-child(2n) {
+  background-color: #ff0037;
+  color: #ffffff;
+}

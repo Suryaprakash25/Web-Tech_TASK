@@ -1,0 +1,70 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+nav{
+    height: 80px;
+    background-color: blanchedalmond;
+    display: flex;  
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    font-weight: bold;
+    font-size: 15px;
+    margin-left: 10px;
+}
+span{
+    color: red;
+    font-style: italic;
+}
+
+.list-items>ul{
+    display: flex;
+    list-style: none;
+    gap: 10px;
+}
+
+.list-items>ul>li{
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+
+}
+
+.list-items>ul>li:hover{
+    color: #68ff51;
+    text-shadow: 2px 2px 3px #5c7d58;
+}
+.buttons{
+    margin-right: 15px;
+}
+.buttons>:nth-child(1){
+    padding: 15px;
+    font-weight: bold;
+    background-color: aqua;
+    font-size: 15px;
+    border-radius: 10px;
+    cursor: pointer;
+    border: 1px solid #ccc;
+}
+.buttons>:nth-child(1):hover{
+    background-color: #72e5d9;
+    box-shadow: 2px 2px 3px #ccc;
+}
+.buttons>:nth-child(2){
+    padding: 15px;
+    font-weight: bold;
+    background-color: #056ceb;
+    font-size: 15px;
+    border-radius: 10px;
+    cursor: pointer;
+    border: 1px solid #ccc;
+}
+
+.buttons>:nth-child(2):hover{
+    background-color: #00b3a1;
+    box-shadow: 2px 2px 3px #ccc;
+}
